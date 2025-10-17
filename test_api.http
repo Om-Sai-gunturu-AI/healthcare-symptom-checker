@@ -1,0 +1,8 @@
+POST http://localhost:8000/check
+Content-Type: application/json
+
+{
+  "symptoms": "fever, sore throat, dry cough",
+  "age": 21,
+  "duration": "2 days"
+}
